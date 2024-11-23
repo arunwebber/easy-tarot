@@ -1,26 +1,47 @@
-# Tarot Card Image Extension
+# Thoth Tarot Deck Consultation Chrome Extension
 
-This project provides a set of tarot card images for use in applications or websites. The extension includes a collection of tarot cards from the Thoth Tarot Deck, with each card having a corresponding image file.
+The **Thoth Tarot Deck Consultation** Chrome extension offers a free initial tarot card consultation based on the Thoth Tarot Deck. Users can explore and receive guidance from tarot card readings directly from the extension.
 
-## Project Overview
+## Overview
 
-This extension allows you to integrate tarot card images into your application or website. The images are stored in a folder called `tarotImages` and are referenced in the code using a numerical index corresponding to each tarot card.
-
-### Tarot Deck
-
-The Thoth Tarot Deck is one of the most widely recognized tarot card decks, created by Aleister Crowley and Lady Frieda Harris. This extension includes the card images numbered from `0` (The Fool) to `77` (The Final Outcome). Each card has a unique image stored in the `tarotImages` folder.
+This extension allows users to consult tarot cards from the Thoth Tarot Deck, featuring 78 unique cards. The extension offers an interactive experience where users can pull a card and receive insights. The deck includes images and descriptions for each card.
 
 ## Features
 
-- **Card Set**: The extension includes all 78 cards of the Thoth Tarot Deck.
-- **Easy Integration**: The images are organized and easily accessible for use in your project.
-- **Image Path Reference**: Each card image can be accessed using the `tarotImages/[card_number].jpg` format.
+- **Free Tarot Consultation**: Get a free initial tarot card consultation using the Thoth Tarot Deck.
+- **Card Selection**: Users can view and interact with the 78 cards from the Thoth Tarot Deck.
+- **Customizable Interface**: The extension provides a clean, user-friendly interface for easy access to tarot readings.
+- **Popup Window**: Access the tarot consultation directly from the browser toolbar via a popup.
 
 ## Installation
 
-1. Download or clone this repository.
-2. Make sure the `tarotImages` folder contains the corresponding tarot card images (from `0.jpg` to `77.jpg`).
-3. Integrate the image paths into your application or website as needed.
+1. Download or clone this repository to your local machine.
+2. Open **Google Chrome** and navigate to **chrome://extensions**.
+3. Enable **Developer Mode** (toggle in the top right).
+4. Click **Load unpacked** and select the folder where the extension files are located.
+5. The extension will now appear in your Chrome toolbar.
+
+## Usage
+
+- Once installed, the extension icon will appear in the Chrome toolbar.
+- Click the icon to open the **popup.html** window.
+- In the popup, interact with the Thoth Tarot Deck for a card consultation.
+- Each time you interact, the extension will display a random tarot card image and its meaning.
+
+## Extension Details
+
+**Name**: Thoth Tarot Deck Consultation  
+**Version**: 1.0  
+**Author**: HashPalLabs  
+**Homepage**: [Arun's Yoga](https://www.arunsyoga.in)  
+**Icons**: The extension uses custom icons for different sizes: 16x16, 48x48, and 128x128. These are used in both the popup and the toolbar.
+
+
+## Example
+
+1. After clicking the extension icon, a popup will appear.
+2. Users will see a tarot card image and its description in the popup.
+3. Every time you reload or open the extension, it randomly selects a card from the Thoth Tarot Deck.
 
 ## License
 
@@ -28,5 +49,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- **Thoth Tarot Deck**: Created by Aleister Crowley and Lady Frieda Harris, widely recognized in the world of tarot.
-- **Open Source**: This project is open-source and can be freely used and modified as per the MIT License.
+- **Thoth Tarot Deck**: Created by Aleister Crowley and Lady Frieda Harris, one of the most well-known and respected tarot decks.
+- **HashPalLabs**: Developers of this Chrome extension, bringing tarot card consultation to your browser.
+
+## Contact
+
+If you have any questions or need help with the extension, feel free to reach out.
