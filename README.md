@@ -28,15 +28,6 @@ This extension allows users to consult tarot cards from the Thoth Tarot Deck, fe
 - In the popup, interact with the Thoth Tarot Deck for a card consultation.
 - Each time you interact, the extension will display a random tarot card image and its meaning.
 
-## Extension Details
-
-**Name**: Thoth Tarot Deck Consultation  
-**Version**: 1.0  
-**Author**: HashPalLabs  
-**Homepage**: [Arun's Yoga](https://www.arunsyoga.in)  
-**Icons**: The extension uses custom icons for different sizes: 16x16, 48x48, and 128x128. These are used in both the popup and the toolbar.
-
-
 ## Example
 
 1. After clicking the extension icon, a popup will appear.
