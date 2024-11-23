@@ -1,0 +1,95 @@
+const thothTarotDeck = [
+    { name: '0', imageUrl: 'tarotImages/0.jpg' },
+    { name: '1', imageUrl: 'tarotImages/1.jpg' },
+    { name: '2', imageUrl: 'tarotImages/2.jpg' },
+    { name: '3', imageUrl: 'tarotImages/3.jpg' },
+    { name: '4', imageUrl: 'tarotImages/4.jpg' },
+    { name: '5', imageUrl: 'tarotImages/5.jpg' },
+    { name: '6', imageUrl: 'tarotImages/6.jpg' },
+    { name: '7', imageUrl: 'tarotImages/7.jpg' },
+    { name: '8', imageUrl: 'tarotImages/8.jpg' },
+    { name: '9', imageUrl: 'tarotImages/9.jpg' },
+    { name: '10', imageUrl: 'tarotImages/10.jpg' },
+    { name: '11', imageUrl: 'tarotImages/11.jpg' },
+    { name: '12', imageUrl: 'tarotImages/12.jpg' },
+    { name: '13', imageUrl: 'tarotImages/13.jpg' },
+    { name: '14', imageUrl: 'tarotImages/14.jpg' },
+    { name: '15', imageUrl: 'tarotImages/15.jpg' },
+    { name: '16', imageUrl: 'tarotImages/16.jpg' },
+    { name: '17', imageUrl: 'tarotImages/17.jpg' },
+    { name: '18', imageUrl: 'tarotImages/18.jpg' },
+    { name: '19', imageUrl: 'tarotImages/19.jpg' },
+    { name: '20', imageUrl: 'tarotImages/20.jpg' },
+    { name: '21', imageUrl: 'tarotImages/21.jpg' },
+    { name: '22', imageUrl: 'tarotImages/22.jpg' },
+    { name: '23', imageUrl: 'tarotImages/23.jpg' },
+    { name: '24', imageUrl: 'tarotImages/24.jpg' },
+    { name: '25', imageUrl: 'tarotImages/25.jpg' },
+    { name: '26', imageUrl: 'tarotImages/26.jpg' },
+    { name: '27', imageUrl: 'tarotImages/27.jpg' },
+    { name: '28', imageUrl: 'tarotImages/28.jpg' },
+    { name: '29', imageUrl: 'tarotImages/29.jpg' },
+    { name: '30', imageUrl: 'tarotImages/30.jpg' },
+    { name: '31', imageUrl: 'tarotImages/31.jpg' },
+    { name: '32', imageUrl: 'tarotImages/32.jpg' },
+    { name: '33', imageUrl: 'tarotImages/33.jpg' },
+    { name: '34', imageUrl: 'tarotImages/34.jpg' },
+    { name: '35', imageUrl: 'tarotImages/35.jpg' },
+    { name: '36', imageUrl: 'tarotImages/36.jpg' },
+    { name: '37', imageUrl: 'tarotImages/37.jpg' },
+    { name: '38', imageUrl: 'tarotImages/38.jpg' },
+    { name: '39', imageUrl: 'tarotImages/39.jpg' },
+    { name: '40', imageUrl: 'tarotImages/40.jpg' },
+    { name: '41', imageUrl: 'tarotImages/41.jpg' },
+    { name: '42', imageUrl: 'tarotImages/42.jpg' },
+    { name: '43', imageUrl: 'tarotImages/43.jpg' },
+    { name: '44', imageUrl: 'tarotImages/44.jpg' },
+    { name: '45', imageUrl: 'tarotImages/45.jpg' },
+    { name: '46', imageUrl: 'tarotImages/46.jpg' },
+    { name: '47', imageUrl: 'tarotImages/47.jpg' },
+    { name: '48', imageUrl: 'tarotImages/48.jpg' },
+    { name: '49', imageUrl: 'tarotImages/49.jpg' },
+    { name: '50', imageUrl: 'tarotImages/50.jpg' },
+    { name: '51', imageUrl: 'tarotImages/51.jpg' },
+    { name: '52', imageUrl: 'tarotImages/52.jpg' },
+    { name: '53', imageUrl: 'tarotImages/53.jpg' },
+    { name: '54', imageUrl: 'tarotImages/54.jpg' },
+    { name: '55', imageUrl: 'tarotImages/55.jpg' },
+    { name: '56', imageUrl: 'tarotImages/56.jpg' },
+    { name: '57', imageUrl: 'tarotImages/57.jpg' },
+    { name: '58', imageUrl: 'tarotImages/58.jpg' },
+    { name: '59', imageUrl: 'tarotImages/59.jpg' },
+    { name: '60', imageUrl: 'tarotImages/60.jpg' },
+    { name: '61', imageUrl: 'tarotImages/61.jpg' },
+    { name: '62', imageUrl: 'tarotImages/62.jpg' },
+    { name: '63', imageUrl: 'tarotImages/63.jpg' },
+    { name: '64', imageUrl: 'tarotImages/64.jpg' },
+    { name: '65', imageUrl: 'tarotImages/65.jpg' },
+    { name: '66', imageUrl: 'tarotImages/66.jpg' },
+    { name: '67', imageUrl: 'tarotImages/67.jpg' },
+    { name: '68', imageUrl: 'tarotImages/68.jpg' },
+    { name: '69', imageUrl: 'tarotImages/69.jpg' },
+    { name: '70', imageUrl: 'tarotImages/70.jpg' },
+    { name: '71', imageUrl: 'tarotImages/71.jpg' },
+    { name: '72', imageUrl: 'tarotImages/72.jpg' },
+    { name: '73', imageUrl: 'tarotImages/73.jpg' },
+    { name: '74', imageUrl: 'tarotImages/74.jpg' },
+    { name: '75', imageUrl: 'tarotImages/75.jpg' },
+    { name: '76', imageUrl: 'tarotImages/76.jpg' },
+    { name: '77', imageUrl: 'tarotImages/77.jpg' }
+    ];
+  
+  function openWebsiteInNewTab() {
+    window.open("https://arunsyoga.in", "_blank");
+  }
+  
+  function drawCard() {
+    const randomIndex = Math.floor(Math.random() * thothTarotDeck.length);
+    const card = thothTarotDeck[randomIndex];
+    const cardImage = document.getElementById('card-image');
+    cardImage.src = card.imageUrl;
+    document.getElementById('message').textContent = `You drew card: ${card.name}`;
+  }
+  
+  document.getElementById('draw-button').addEventListener('click', drawCard);
+  
